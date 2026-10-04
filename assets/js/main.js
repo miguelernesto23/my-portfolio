@@ -128,7 +128,7 @@ $("#pj").innerHTML = projects
       <div class="pb"><span class="tag" style="margin:0">${p.kind}</span><h3>${p.name}</h3><p>${p.desc}</p>
       <ul>${p.feats.map((f) => `<li>${f}</li>`).join("")}</ul>
       <div class="chips">${p.stack.map((s) => `<span class="chip">${s}</span>`).join("")}</div>
-      <div class="acts"><button class="btn p" data-i="${i}">Ver caso de estudio</button>${linkBtn("Ver proyecto", projectLinks[p.id].demo)}${linkBtn("Código", projectLinks[p.id].code)}</div></div></article>`,
+      <div class="acts"><button class="btn p" data-i="${i}">Ver caso de estudio</button></div></div></article>`,
   )
   .join("");
 
