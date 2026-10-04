@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# AI / local tooling folders
+.claude/

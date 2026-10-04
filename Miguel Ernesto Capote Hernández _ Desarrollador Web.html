@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Miguel Ernesto Capote Hernández | Desarrollador Web</title>
+    <meta
+      name="description"
+      content="Portafolio de Miguel Ernesto Capote Hernández, desarrollador web especializado en React, Next.js y aplicaciones modernas."
+    />
+    <meta
+      property="og:title"
+      content="Miguel Ernesto Capote Hernández | Desarrollador Web"
+    />
+    <meta
+      property="og:description"
+      content="Portafolio de Miguel Ernesto Capote Hernández, desarrollador web especializado en React, Next.js y aplicaciones modernas."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap"
+      rel="stylesheet"
+    />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#07080b" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Miguel Ernesto Capote Hernández",
+        "jobTitle": "Desarrollador Web",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cienfuegos",
+          "addressCountry": "CU"
+        },
+        "alumniOf": "Universidad Central “Marta Abreu” de Las Villas"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Saltar al contenido</a>
+    <div id="glow"></div>
+    <div id="cur"></div>
+    <nav id="nav" aria-label="Principal">
+      <b>MC<span class="g">.dev</span></b>
+      <ul class="nl" id="nl">
+        <li><a href="#sobre-mi">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#proyectos">Projects</a></li>
+        <li><a href="#servicios">Services</a></li>
+        <li><a href="#contacto">Contact</a></li>
+      </ul>
+      <button class="lg" id="lg" aria-label="Cambiar idioma">EN</button>
+      <button class="ib" id="th" aria-label="Cambiar tema">◐</button>
+      <button
+        class="bg"
+        id="bg"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="nl"
+      >
+        <i></i>
+      </button>
+    </nav>
+
+    <div id="mc" data-s="hero">
+      <button id="mb2" aria-label="Asistente del portafolio">
+        <svg viewBox="0 0 120 150" aria-hidden="true">
+          <ellipse
+            cx="60"
+            cy="144"
+            rx="30"
+            ry="5"
+            fill="var(--a)"
+            opacity=".25"
+          />
+          <g class="fg">
+            <line
+              x1="60"
+              y1="18"
+              x2="60"
+              y2="7"
+              stroke="var(--mu)"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <circle class="an" cx="60" cy="6" r="5" fill="var(--a)" />
+            <rect
+              x="22"
+              y="18"
+              width="76"
+              height="58"
+              rx="22"
+              fill="var(--s2)"
+              stroke="var(--ln)"
+              stroke-width="2"
+            />
+            <rect
+              x="30"
+              y="30"
+              width="60"
+              height="34"
+              rx="14"
+              fill="var(--bg)"
+            />
+            <g id="eL">
+              <circle cx="46" cy="45" r="8" fill="var(--a)" opacity=".2" />
+              <circle class="pp" cx="46" cy="45" r="4.5" fill="var(--a)" />
+            </g>
+            <g id="eR">
+              <circle cx="74" cy="45" r="8" fill="var(--a)" opacity=".2" />
+              <circle class="pp" cx="74" cy="45" r="4.5" fill="var(--a)" />
+            </g>
+            <path
+              d="M53 57q7 5 14 0"
+              stroke="var(--b)"
+              stroke-width="2.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <rect
+              x="34"
+              y="82"
+              width="52"
+              height="42"
+              rx="16"
+              fill="var(--s2)"
+              stroke="var(--ln)"
+              stroke-width="2"
+            />
+            <rect x="48" y="95" width="24" height="6" rx="3" fill="var(--b)" />
+            <rect
+              x="52"
+              y="107"
+              width="16"
+              height="4"
+              rx="2"
+              fill="var(--a)"
+              opacity=".7"
+            />
+            <g class="arm">
+              <rect
+                x="16"
+                y="88"
+                width="16"
+                height="30"
+                rx="8"
+                fill="var(--s2)"
+                stroke="var(--ln)"
+                stroke-width="2"
+              />
+            </g>
+            <rect
+              x="88"
+              y="88"
+              width="16"
+              height="30"
+              rx="8"
+              fill="var(--s2)"
+              stroke="var(--ln)"
+              stroke-width="2"
+            />
+          </g>
+        </svg>
+      </button>
+      <div id="bub" role="status"><span id="bt"></span></div>
+      <button id="mx" aria-label="Ocultar asistente">×</button>
+    </div>
+    <main id="main">
+      <section id="hero">
+        <div class="w" style="position: relative">
+          <span class="tag">&lt;WEB DEVELOPER /&gt;</span>
+          <p class="rv" style="margin: 0 0 22px">
+            <span class="chip"
+              ><i class="dot"></i>Disponible para freelance y trabajo
+              remoto</span
+            >
+          </p>
+          <h1 class="rv">
+            <span>Miguel Ernesto</span><span class="g">Capote Hernández</span>
+          </h1>
+          <p
+            class="rv"
+            style="
+              --d: 0.15s;
+              font-size: 1.25rem;
+              margin-top: 28px;
+              color: var(--tx);
+            "
+          >
+            <b>Desarrollador Web.</b>
+            <span style="color: var(--mu)"
+              >Construyo aplicaciones web modernas, funcionales y escalables,
+              combinando buenas prácticas de desarrollo con una experiencia de
+              usuario cuidada.</span
+            >
+          </p>
+          <div class="hero-btns rv" style="--d: 0.3s">
+            <a class="btn p" href="#proyectos">Ver proyectos</a
+            ><a class="btn" href="#contacto">Contactarme</a>
+          </div>
+          <div class="mb">
+            <span class="chip">Next.js</span><span class="chip">React</span
+            ><span class="chip">TypeScript</span
+            ><span class="chip">Tailwind CSS</span
+            ><span class="chip">Prisma</span>
+          </div>
+          <span class="chip fl" style="right: 2%; top: -10px">Next.js</span>
+          <span
+            class="chip fl"
+            style="right: 14%; top: 90px; animation-delay: -2s"
+            >React</span
+          >
+          <span
+            class="chip fl"
+            style="right: 0; top: 190px; animation-delay: -4s"
+            >TypeScript</span
+          >
+          <span
+            class="chip fl"
+            style="right: 18%; top: 290px; animation-delay: -1s"
+            >Tailwind CSS</span
+          >
+          <span
+            class="chip fl"
+            style="right: 3%; top: 380px; animation-delay: -3s"
+            >Prisma</span
+          >
+        </div>
+      </section>
+
+      <section id="sobre-mi">
+        <div class="w two">
+          <div class="rv">
+            <span class="tag">/sobre-mi</span>
+            <h2>Sobre mí</h2>
+            <p>
+              Soy graduado de Ingeniería Informática y desarrollador web
+              enfocado en la construcción de aplicaciones modernas. Me interesa
+              especialmente crear soluciones que sean funcionales, mantenibles y
+              capaces de resolver problemas reales.
+            </p>
+          </div>
+          <div class="card rv" style="--d: 0.15s">
+            <dl>
+              <div>
+                <dt>Formación</dt>
+                <dd>
+                  Ingeniería Informática<small
+                    >Universidad Central “Marta Abreu” de Las Villas</small
+                  >
+                </dd>
+              </div>
+              <div>
+                <dt>Especialidad</dt>
+                <dd>Desarrollo Web</dd>
+              </div>
+              <div>
+                <dt>Inglés</dt>
+                <dd>B1</dd>
+              </div>
+              <div>
+                <dt>Ubicación</dt>
+                <dd>Cienfuegos, Cuba</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="w">
+          <span class="tag">/skills</span>
+          <h2 class="rv">Tecnologías que utilizo</h2>
+          <div class="sk rv" id="sk"></div>
+          <div id="lrn" hidden class="rv" style="margin-top: 32px">
+            <h3 style="margin-bottom: 12px">Ahora estoy aprendiendo</h3>
+            <div id="lrl"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos">
+        <div class="w">
+          <span class="tag">/proyectos</span>
+          <h2 class="rv">Proyectos destacados</h2>
+          <p class="rv">
+            Aplicaciones construidas para resolver problemas reales.
+          </p>
+          <div class="pj" id="pj"></div>
+        </div>
+      </section>
+
+      <section id="proceso">
+        <div class="w two">
+          <div class="rv">
+            <span class="tag">/proceso</span>
+            <h2>Cómo trabajo</h2>
+          </div>
+          <ol class="tl" id="tl">
+            <li>
+              <h3>Entender</h3>
+              <p>Analizar el problema y los requisitos.</p>
+            </li>
+            <li>
+              <h3>Diseñar</h3>
+              <p>Definir estructura, experiencia y arquitectura.</p>
+            </li>
+            <li>
+              <h3>Construir</h3>
+              <p>Desarrollar frontend y backend.</p>
+            </li>
+            <li>
+              <h3>Probar</h3>
+              <p>Validar funcionalidades y comportamiento.</p>
+            </li>
+            <li>
+              <h3>Mejorar</h3>
+              <p>Optimizar experiencia, rendimiento y código.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="servicios">
+        <div class="w">
+          <span class="tag">/servicios</span>
+          <h2 class="rv">¿Qué puedo desarrollar?</h2>
+          <div class="sv" id="sv"></div>
+        </div>
+      </section>
+
+      <section id="disponible">
+        <div class="w two">
+          <div class="rv">
+            <span class="tag">/disponible</span>
+            <h2>Disponible para trabajo freelance</h2>
+            <p>
+              Soy desarrollador freelance y busco oportunidades de trabajo
+              online. Puedo colaborar de forma remota en proyectos de desarrollo
+              web.
+            </p>
+          </div>
+          <div class="card rv" style="--d: 0.15s">
+            <dl id="avl">
+              <div>
+                <dt>Modalidad</dt>
+                <dd>Freelance</dd>
+              </div>
+              <div>
+                <dt>Tipo de trabajo</dt>
+                <dd>Remoto / online</dd>
+              </div>
+              <div>
+                <dt>Busco</dt>
+                <dd>Proyectos y colaboraciones de desarrollo web</dd>
+              </div>
+              <div>
+                <dt>Idiomas</dt>
+                <dd>Español · Inglés (B1)</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="w">
+          <div class="rv">
+            <span class="tag">/contacto</span>
+            <h2>¿Construimos <span class="g">algo juntos?</span></h2>
+            <p>
+              Estoy abierto a nuevas oportunidades, proyectos y colaboraciones
+              relacionadas con el desarrollo web.
+            </p>
+            <div class="hero-btns" id="ct"></div>
+            <form class="f" id="cf">
+              <label
+                >Nombre<input name="name" required autocomplete="name" /></label
+              ><label
+                >Correo<input
+                  name="email"
+                  type="email"
+                  required
+                  autocomplete="email" /></label
+              ><label
+                >Mensaje<textarea name="message" required></textarea></label
+              ><button class="btn p" type="submit">Enviar mensaje</button>
+              <p id="cs" role="status" style="margin: 0"></p>
+            </form>
+          </div>
+          <div class="cta2 rv">
+            <h2>Construyo. Experimento. Aprendo.</h2>
+            <p>
+              Explora mis proyectos y conoce cómo estoy construyendo mi camino
+              como desarrollador.
+            </p>
+            <div class="hero-btns">
+              <a class="btn" data-link="github" href="#">GitHub</a>
+              <button class="btn" id="downloadPortfolio">Descargar Portafolio</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="w">
+        <div>
+          <b style="color: var(--tx)">Miguel Ernesto Capote Hernández</b
+          ><br />Desarrollador Web
+        </div>
+        <ul>
+          <li><a href="#sobre-mi">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#proyectos">Projects</a></li>
+          <li><a href="#servicios">Services</a></li>
+          <li><a href="#contacto">Contact</a></li>
+        </ul>
+        <span>© <span id="yr"></span></span>
+      </div>
+    </footer>
+
+    <dialog id="dlg" aria-labelledby="dt">
+      <button class="btn x" id="cl" aria-label="Cerrar">Cerrar</button>
+      <div id="db"></div>
+    </dialog>
+    <div id="toast" role="status"></div>
+
+        <script src="assets/js/main.js"></script>
+  </body>
+</html>
